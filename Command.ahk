@@ -42,7 +42,7 @@ Drop_Command:
     Else If (FirstNumber = "A")
     {
       GoSub, Command_Hide
-      gosub,AboutHelp
+      WinSet, AlwaysOnTop, Toggle,A
       return
     }
     Else If (FirstNumber = "V")

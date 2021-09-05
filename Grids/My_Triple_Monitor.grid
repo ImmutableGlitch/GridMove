@@ -4,7 +4,7 @@
 
 [Groups]
 
-NumberOfGroups = 132
+NumberOfGroups = 198
 
 
 [1]
@@ -1591,3 +1591,793 @@ GridLeft      = [Monitor2Left] + ([Monitor2Width] / 2) - (([Monitor2Width] /5*4)
 GridRight     = [Monitor2Left] + ([Monitor2Width] / 2) + (([Monitor2Width] /5*4)/2)
 
 
+[133]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 0)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 2) - 20
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 2) + 20
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3)
+GridLeft      = [Monitor3Left] + ([Monitor3Width] / 2) - (([Monitor3Width] /3)/2)
+GridRight     = [Monitor3Left] + ([Monitor3Width] / 2) + (([Monitor3Width] /3)/2)
+
+
+[134]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 2) - 20
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 2) + 20
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /2)
+GridLeft      = [Monitor3Left] + ([Monitor3Width] / 2) - (([Monitor3Width] /3)/2)
+GridRight     = [Monitor3Left] + ([Monitor3Width] / 2) + (([Monitor3Width] /3)/2)
+
+
+[135]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 2) - 20
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 2) + 20
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3*2)
+GridLeft      = [Monitor3Left] + ([Monitor3Width] / 2) - (([Monitor3Width] /3)/2)
+GridRight     = [Monitor3Left] + ([Monitor3Width] / 2) + (([Monitor3Width] /3)/2)
+
+
+[136]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 4)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 2) - 20
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 2) + 20
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] )
+GridLeft      = [Monitor3Left] + ([Monitor3Width] / 2) - (([Monitor3Width] /3)/2)
+GridRight     = [Monitor3Left] + ([Monitor3Width] / 2) + (([Monitor3Width] /3)/2)
+
+
+[137]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 10)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 2) - 20
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 2) + 20
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left] + ([Monitor3Width] / 2) - (([Monitor3Width] /3)/2)
+GridRight     = [Monitor3Left] + ([Monitor3Width] / 2) + (([Monitor3Width] /3)/2)
+
+
+[138]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 2) - 20
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 2) + 20
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left] + ([Monitor3Width] / 2) - (([Monitor3Width] /3)/2)
+GridRight     = [Monitor3Left] + ([Monitor3Width] / 2) + (([Monitor3Width] /3)/2)
+
+
+[139]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 2) - 20
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 2) + 20
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3*2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left] + ([Monitor3Width] / 2) - (([Monitor3Width] /3)/2)
+GridRight     = [Monitor3Left] + ([Monitor3Width] / 2) + (([Monitor3Width] /3)/2)
+
+
+[140]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 6)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 2) - 20
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 2) + 20
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] )
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left] + ([Monitor3Width] / 2) - (([Monitor3Width] /3)/2)
+GridRight     = [Monitor3Left] + ([Monitor3Width] / 2) + (([Monitor3Width] /3)/2)
+
+
+[141]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 2) - 20
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 2) + 20
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 0)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+GridTop       = [Monitor3Top] + ([Monitor3Height] / 2) - (([Monitor3Height] /3)/2)
+GridBottom    = [Monitor3Top] + ([Monitor3Height] / 2) + (([Monitor3Height] /3)/2)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3)
+
+
+[142]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 2) - 20
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 2) + 20
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+GridTop       = [Monitor3Top] + ([Monitor3Height] / 2) - (([Monitor3Height] /3)/2)
+GridBottom    = [Monitor3Top] + ([Monitor3Height] / 2) + (([Monitor3Height] /3)/2)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /2)
+
+
+[143]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 2) - 20
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 2) + 20
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+GridTop       = [Monitor3Top] + ([Monitor3Height] / 2) - (([Monitor3Height] /3)/2)
+GridBottom    = [Monitor3Top] + ([Monitor3Height] / 2) + (([Monitor3Height] /3)/2)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3*2)
+
+
+[144]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 2) - 20
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 2) + 20
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 4)
+GridTop       = [Monitor3Top] + ([Monitor3Height] / 2) - (([Monitor3Height] /3)/2)
+GridBottom    = [Monitor3Top] + ([Monitor3Height] / 2) + (([Monitor3Height] /3)/2)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] )
+
+
+[145]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 2) - 20
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 2) + 20
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 10)
+GridTop       = [Monitor3Top] + ([Monitor3Height] / 2) - (([Monitor3Height] /3)/2)
+GridBottom    = [Monitor3Top] + ([Monitor3Height] / 2) + (([Monitor3Height] /3)/2)
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3)
+GridRight     = [Monitor3Right]
+
+
+[146]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 2) - 20
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 2) + 20
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+GridTop       = [Monitor3Top] + ([Monitor3Height] / 2) - (([Monitor3Height] /3)/2)
+GridBottom    = [Monitor3Top] + ([Monitor3Height] / 2) + (([Monitor3Height] /3)/2)
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /2)
+GridRight     = [Monitor3Right]
+
+
+[147]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 2) - 20
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 2) + 20
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+GridTop       = [Monitor3Top] + ([Monitor3Height] / 2) - (([Monitor3Height] /3)/2)
+GridBottom    = [Monitor3Top] + ([Monitor3Height] / 2) + (([Monitor3Height] /3)/2)
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3*2)
+GridRight     = [Monitor3Right]
+
+
+[148]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 2) - 20
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 2) + 20
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 6)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+GridTop       = [Monitor3Top] + ([Monitor3Height] / 2) - (([Monitor3Height] /3)/2)
+GridBottom    = [Monitor3Top] + ([Monitor3Height] / 2) + (([Monitor3Height] /3)/2)
+GridLeft      = [Monitor3Right] - ([Monitor3Width] )
+GridRight     = [Monitor3Right]
+
+
+[149]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 0)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 0)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3)
+
+
+[150]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 0)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /2)
+
+
+[151]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 0)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3*2)
+
+
+[152]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 0)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /2)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3)
+
+
+[153]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /2)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /2)
+
+
+[154]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /2)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3*2)
+
+
+[155]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 0)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3*2)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3)
+
+
+[156]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3*2)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /2)
+
+
+[157]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3*2)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3*2)
+
+
+[158]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 0)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] )
+
+
+[159]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /2)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] )
+
+
+[160]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3*2)
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] )
+
+
+[161]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 0)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 10)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3)
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3)
+GridRight     = [Monitor3Right]
+
+
+[162]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 0)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3)
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /2)
+GridRight     = [Monitor3Right]
+
+
+[163]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 0)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3)
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3*2)
+GridRight     = [Monitor3Right]
+
+
+[164]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 10)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /2)
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3)
+GridRight     = [Monitor3Right]
+
+
+[165]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /2)
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /2)
+GridRight     = [Monitor3Right]
+
+
+[166]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 1)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /2)
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3*2)
+GridRight     = [Monitor3Right]
+
+
+[167]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 10)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3*2)
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3)
+GridRight     = [Monitor3Right]
+
+
+[168]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3*2)
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /2)
+GridRight     = [Monitor3Right]
+
+
+[169]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 2)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] /3*2)
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3*2)
+GridRight     = [Monitor3Right]
+
+
+[170]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 10)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] )
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3)
+GridRight     = [Monitor3Right]
+
+
+[171]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] )
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /2)
+GridRight     = [Monitor3Right]
+
+
+[172]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+GridTop       = [Monitor3Top]
+GridBottom    = [Monitor3Top] + ([Monitor3Height] )
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3*2)
+GridRight     = [Monitor3Right]
+
+
+[173]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 10)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 10)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3)
+GridRight     = [Monitor3Right]
+
+
+[174]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 10)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /2)
+GridRight     = [Monitor3Right]
+
+
+[175]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 10)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3*2)
+GridRight     = [Monitor3Right]
+
+
+[176]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 10)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3)
+GridRight     = [Monitor3Right]
+
+
+[177]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /2)
+GridRight     = [Monitor3Right]
+
+
+[178]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3*2)
+GridRight     = [Monitor3Right]
+
+
+[179]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 10)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3*2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3)
+GridRight     = [Monitor3Right]
+
+
+[180]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 9)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3*2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /2)
+GridRight     = [Monitor3Right]
+
+
+[181]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 8)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3*2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Right] - ([Monitor3Width] /3*2)
+GridRight     = [Monitor3Right]
+
+
+[182]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 10)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Right] - ([Monitor3Width] )
+GridRight     = [Monitor3Right]
+
+
+[183]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Right] - ([Monitor3Width] )
+GridRight     = [Monitor3Right]
+
+
+[184]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3*2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Right] - ([Monitor3Width] )
+GridRight     = [Monitor3Right]
+
+
+[185]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 10)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 0)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3)
+
+
+[186]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 10)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /2)
+
+
+[187]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 10)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3*2)
+
+
+[188]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 0)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3)
+
+
+[189]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /2)
+
+
+[190]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 9)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3*2)
+
+
+[191]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 0)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3*2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3)
+
+
+[192]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3*2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /2)
+
+
+[193]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 8)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] /3*2)
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3*2)
+
+
+[194]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 0)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] )
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3)
+
+
+[195]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 1)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] )
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /2)
+
+
+[196]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 3)
+GridTop       = [Monitor3Bottom] - ([Monitor3Height] )
+GridBottom    = [Monitor3Bottom]
+GridLeft      = [Monitor3Left]
+GridRight     = [Monitor3Left] + ([Monitor3Width] /3*2)
+
+
+[197]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 4)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 6)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 4)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 6)
+GridTop       = [Monitor3Top] + ([Monitor3Height] / 2) - (([Monitor3Height] /3*2)/2)
+GridBottom    = [Monitor3Top] + ([Monitor3Height] / 2) + (([Monitor3Height] /3*2)/2)
+GridLeft      = [Monitor3Left] + ([Monitor3Width] / 2) - (([Monitor3Width] /3*2)/2)
+GridRight     = [Monitor3Left] + ([Monitor3Width] / 2) + (([Monitor3Width] /3*2)/2)
+
+
+[198]
+
+TriggerTop    = [Monitor3Top]  + ([Monitor3Height] / 10 * 3)
+TriggerBottom = [Monitor3Top]  + ([Monitor3Height] / 10 * 7)
+TriggerLeft   = [Monitor3Left] + ([Monitor3Width]  / 10 * 2)
+TriggerRight  = [Monitor3Left] + ([Monitor3Width]  / 10 * 7)
+GridTop       = [Monitor3Top] + ([Monitor3Height] / 2) - (([Monitor3Height] /5*4)/2)
+GridBottom    = [Monitor3Top] + ([Monitor3Height] / 2) + (([Monitor3Height] /5*4)/2)
+GridLeft      = [Monitor3Left] + ([Monitor3Width] / 2) - (([Monitor3Width] /5*4)/2)
+GridRight     = [Monitor3Left] + ([Monitor3Width] / 2) + (([Monitor3Width] /5*4)/2)

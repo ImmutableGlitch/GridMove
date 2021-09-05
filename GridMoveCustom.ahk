@@ -36,7 +36,7 @@
 
   ;;end of options
 
-  ScriptVersion = 1.19.72-win10fix
+  ScriptVersion = 1.19.72-Custom
 
   ; Detect Windows 10
   if % substr(a_osversion, 1, 2) = 10
@@ -129,7 +129,7 @@
     Hotkey, %CommandHotkey%, Command
 
   If MButtonDrag
-    Hotkey, MButton, MButtonMove
+    Hotkey, F24, MButtonMove
 
   If UseFastMove
     GoSub,DefineHotkeys
@@ -481,15 +481,15 @@ MButtonMove:
     sendinput,{MButton up}
     Return
   }
-  KeyWait,MButton,T%MButtonTimeOut%
+  KeyWait,F24,T%MButtonTimeOut%
   if errorlevel = 0
   {
-    sendinput,{MButton}
+    sendinput,{F24}
     return
   }
 
   Winactivate, ahk_id %window%
-  Hotkey = MButton
+  Hotkey = F24
   GoSub, DropZoneMode
   return
 
